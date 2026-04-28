@@ -1,0 +1,24 @@
+@AiPortfolio.Api_HostAddress = http://localhost:5240
+
+GET {{AiPortfolio.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{AiPortfolio.Api_HostAddress}}/api/sentiment
+Content-Type: application/json
+
+{
+  "text": "I absolutely love learning Azure AI services! This is amazing."
+}
+
+###
+
+POST {{AiPortfolio.Api_HostAddress}}/api/sentiment
+Content-Type: application/json
+
+{
+  "text": "The service was terrible and I am very disappointed."
+}
+
+###

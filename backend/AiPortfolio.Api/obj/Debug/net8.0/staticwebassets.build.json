@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aQ1cIVPIuDyy1iPvyIHQlJaTss7FeeaL8LFmU8BPrzU=",
+  "Source": "AiPortfolio.Api",
+  "BasePath": "_content/AiPortfolio.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
